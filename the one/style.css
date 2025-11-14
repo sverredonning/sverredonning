@@ -130,7 +130,12 @@ html, body{
 	font-weight:bold;
 }
 
-
+.unterschrift {
+	position:absolute;
+	width:20%;
+	margin-left:55%;
+	margin-top:-10%;
+}
 
 .introtext {
 	text-align:center;
@@ -147,29 +152,33 @@ html, body{
 
 .fotobox {
 	background-color:#FAEBD7;
-	width:700px;
-	height:646.5px;
-	border-radius:0px 25px 25px 0px;
+	width:35%;
+	height:63.4%;
+	border-radius:25px 25px 25px 25px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+	margin-left:10%;
 	
 }
 
 .fotoboxfoto {
-	width:50%;
+	
 	float:left;
 	height:100%;
+	border-radius:25px 0px 0px 25px;
 }
 
 .fototext {
 	float:right;
 	height:100%;
-	width:340px;
+	width:47%;
 	background-color:;
-	margin:5px;
-	text-align:justify;
+	margin-right:2%;
+	text-align:;
 }
 
-
+.introtexte123 {
+	font-size:18px;
+}
 
 .division {
 	height:3px;
@@ -179,17 +188,49 @@ html, body{
 	margin-bottom:100px;
 }
 
+.intro2 {
+	background-color:#FAEBD7;
+	width:15%;
+	height:40%;
+	position:absolute;
+	float:left;
+	margin-top:11%;
+	margin-left:29%;
+	padding:10px;
+	padding-top:5px;
+	border-radius:25px 25px 25px 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro3 {
+	background-color:#FAEBD7;
+	width:17%;
+	margin-top:12%;
+	margin-left:55%;
+	padding:10px;
+	border-radius:25px 25px 25px 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.praktikumszeugnis {
+	position:absolute;
+	height:65%;
+	margin-left:30%;
+	margin-top:-29%;
+	border-radius:25px 25px 25px 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
 
 /*  ------------------v skillbox v-------------------  */
 
 .skillboxes {
-	position:absolute;
+	position:;
 
 	width:900px;
 	height:500px;
-	margin-left:45%;
-	margin-bottom:;
-	margin-top:-30%;
+	margin-left:48%;
+	margin-bottom:10%;
+	margin-top:10%;
 
 	
 }
@@ -198,26 +239,26 @@ html, body{
 	margin: 8px -16px;
 }
 
-/* Add padding BETWEEN each column (if you want) */
+
 .row,
 .row > .column {
 	padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+
 .column {
 	float: left;
 	width: 25%;
 }
 
-/* Clear floats after rows */
+
 .row:after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
-/* Content */
+
 .content {
 	background-color: ;
 	padding: 10px;
