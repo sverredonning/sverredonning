@@ -287,7 +287,7 @@ html, body{
 	width:92.1%;
 	height:1100px;
 	margin-right:0%;
-	background-color:pink;
+	
 }
 
 
@@ -310,8 +310,20 @@ html, body{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
 }
 
+a {
+	color:#800000;
+}
+
+a:hover {
+	color:#f1f1f1;
+}
+
 #footertxt {
 	line-height: 150%
+}
+
+.redtext{
+	color:#800000;
 }
 
 /*  ------------------------------------------------------^ footer ^------------------------------------------------------  */
