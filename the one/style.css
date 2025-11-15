@@ -87,7 +87,7 @@ html, body{
 	font-weight:bold;
 	text-align:center;
 	margin-top:0;
-	margin-bottom:170px;
+	margin-bottom:140%;
 }
 
 /*  ------------------------------------------------------^ navbar ^------------------------------------------------------  */
@@ -177,7 +177,7 @@ html, body{
 }
 
 .introtexte123 {
-	font-size:18px;
+	font-size:0.93vw;
 }
 
 .division {
