@@ -191,7 +191,6 @@ html, body{
 }
 
 .fotoboxfoto {
-	
 	float:left;
 	height:100%;
 	border-radius:25px 0px 0px 25px;
@@ -225,7 +224,7 @@ html, body{
 	position:absolute;
 	float:left;
 	margin-top:11%;
-	margin-left:29%;
+	margin-left:20%;
 	padding:10px;
 	padding-top:5px;
 	border-radius:25px 25px 25px 25px;
@@ -236,7 +235,7 @@ html, body{
 	background-color:#FFFFFF;
 	width:17%;
 	margin-top:12%;
-	margin-left:55%;
+	margin-left:52%;
 	padding:10px;
 	border-radius:25px 25px 25px 25px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
@@ -245,7 +244,7 @@ html, body{
 .praktikumszeugnis {
 	position:absolute;
 	height:65%;
-	margin-left:30%;
+	margin-left:27%;
 	margin-top:-29%;
 	border-radius:25px 25px 25px 25px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
@@ -255,10 +254,9 @@ html, body{
 
 .skillboxes {
 	position:;
-
 	width:900px;
 	height:500px;
-	margin-left:48%;
+	margin-left:40%;
 	margin-bottom:10%;
 	margin-top:10%;
 
