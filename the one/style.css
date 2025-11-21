@@ -1,0 +1,357 @@
+html, body{
+	height:100%;
+	width:100%;
+    padding:0;
+	margin:0;
+	background-color:#f1f1f1;
+	
+
+}
+
+* {
+	font-family:verdana;
+}
+
+
+/*  ------------------------------------------------------v navbar v------------------------------------------------------  */
+
+#navbarbar {
+	height:100%;
+	background-color:#500808;
+	width:150px;
+	position: fixed;
+	right:0;
+	top:0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbutt {
+	border:none;
+	display:grid;
+	place-items:center;
+	background-color:#500808;
+	padding: 14px 28px;
+	font-size:16px;
+	width:150px;
+	height:180px;
+	top:35%;
+	color:#f1f1f1;
+	cursor:pointer;
+	border-radius:0px 25px 25px 0px;
+	
+}
+
+.navbutttext {
+	margin-top:0;
+}
+
+.navbutt:hover {
+	background-color:#f1f1f1;
+	color:#500808;
+}
+
+
+
+.navsymbol {
+	grid-area: 1 / 1; 
+	
+}
+
+.navsymbolC {
+	grid-area: 1 / 1; 
+	opacity:0;
+}
+
+.navbutt:hover img:nth-child(1) {
+	opacity:0;
+}
+
+.navbutt:hover img:nth-child(2) {
+	opacity:1;
+}
+
+
+
+.navbartitle {
+	font-size: 35px;
+	color:#f1f1f1;
+	font-weight:bold;
+	text-align:center;
+	margin-top:5%;
+	margin-bottom:0px;
+}
+
+.navbartitle2 {
+	font-size: 28px;
+	color:#f1f1f1;
+	font-weight:bold;
+	text-align:center;
+	margin-top:0;
+	margin-bottom:140%;
+}
+
+
+.dropbutt {
+	position:relative;
+	
+}
+
+.dropbuttcontent {
+	display: none;
+	position: absolute;
+	background-color: #500808;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropbuttcontent a:hover {
+	background-color: #f1f1f1;
+	color:#500808;
+}
+
+.dropbuttcontent a {
+	color:#f1f1f1;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropbutt:hover .dropbuttcontent {
+	display: block;
+}
+
+/*  ------------------------------------------------------^ navbar ^------------------------------------------------------  */
+/*  ------------------------------------------------------v main v------------------------------------------------------  */
+/*  -----------------------------------v homepage v------------------------------  */
+
+.frontbanner {
+	width:92.1%;
+	height:300px;
+	background-color:white;
+	margin-top:0.1px;
+	padding-top:1px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+.bwpic {
+	height:100%;
+	float:left;
+	margin-left:20%;
+}
+
+.bannertitle1 {
+	text-align:right;
+	margin-top:0;
+	margin-bottom:0;
+	margin-right:3%;
+	font-size:120px;
+	color:#500808;
+	font-weight:bold;
+}
+
+.bannertitle2 {
+	text-align:right;
+	margin-top:0;
+	margin-bottom:0;
+	margin-right:3%;
+	font-size:95px;
+	color:#500808;
+	font-weight:bold;
+}
+
+.unterschrift {
+	position:absolute;
+	width:20%;
+	margin-left:55%;
+	margin-top:-10%;
+}
+
+.introtext {
+	text-align:center;
+	
+}
+
+.introtextheader {
+	color:#800000;
+	margin-bottom:0;
+	margin-top:50px;
+}
+
+
+
+.fotobox {
+	background-color:#FFFFFF;
+	width:670px;
+	height:63.4%;
+	border-radius:25px 25px 25px 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+	margin-left:10%;
+	
+}
+
+.fotoboxfoto {
+	
+	float:left;
+	height:100%;
+	border-radius:25px 0px 0px 25px;
+}
+
+.fototext {
+	float:right;
+	height:100%;
+	width:47%;
+	background-color:;
+	margin-right:2%;
+	text-align:;
+}
+
+.introtexte123 {
+	font-size:0.93vw;
+}
+
+.division {
+	height:3px;
+	width:40%;
+	background-image: linear-gradient(to right, rgb(128, 0, 0, 0), rgb(128, 0, 0, 1), rgb(128, 0, 0, 1), rgb(128, 0, 0, 0));
+	margin: auto;
+	margin-bottom:100px;
+}
+
+.intro2 {
+	background-color:#FFFFFF;
+	width:15%;
+	height:40%;
+	position:absolute;
+	float:left;
+	margin-top:11%;
+	margin-left:29%;
+	padding:10px;
+	padding-top:5px;
+	border-radius:25px 25px 25px 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro3 {
+	background-color:#FFFFFF;
+	width:17%;
+	margin-top:12%;
+	margin-left:55%;
+	padding:10px;
+	border-radius:25px 25px 25px 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.praktikumszeugnis {
+	position:absolute;
+	height:65%;
+	margin-left:30%;
+	margin-top:-29%;
+	border-radius:25px 25px 25px 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*  ------------------v skillbox v-------------------  */
+
+.skillboxes {
+	position:;
+
+	width:900px;
+	height:500px;
+	margin-left:48%;
+	margin-bottom:10%;
+	margin-top:10%;
+
+	
+}
+
+.row {
+	margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+
+.column {
+	float: left;
+	width: 25%;
+}
+
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.content {
+	background-color: ;
+	padding: 10px;
+}
+
+.logos {
+	height:100px;
+	
+}
+
+
+/*  ------------------^ skillbox ^-------------------  */
+
+/*  -----------------------------------^ homepage ^------------------------------  */
+
+/*  ----------------------------v Bewerbungsunterlagen v------------------------------  */
+
+
+
+
+.anschreiben {
+	display:block;
+	width:92.1%;
+	height:100vh;
+	margin-right:0%;
+	
+}
+
+
+/*  ----------------------------^ Bewerbungsunterlagen ^------------------------------  */
+
+
+
+/*  ------------------------------------------------------^ main ^------------------------------------------------------  */
+/*  ------------------------------------------------------v footer v------------------------------------------------------  */
+
+#footah {
+	width:100%;
+	height:150px;
+	background-color:#ED8E8E;
+	float:center;
+	text-align:center;
+	padding-top:35px;
+	margin-bottom:0%;
+	margin-top:0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+	color:#800000;
+}
+
+a:hover {
+	color:#f1f1f1;
+}
+
+#footertxt {
+	line-height: 150%
+	
+}
+
+.redtext{
+	color:#800000;
+}
+
+/*  ------------------------------------------------------^ footer ^------------------------------------------------------  */
