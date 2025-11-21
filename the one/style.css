@@ -181,7 +181,7 @@ html, body{
 
 
 .fotobox {
-	background-color:#FAEBD7;
+	background-color:#FFFFFF;
 	width:670px;
 	height:63.4%;
 	border-radius:25px 25px 25px 25px;
@@ -219,7 +219,7 @@ html, body{
 }
 
 .intro2 {
-	background-color:#FAEBD7;
+	background-color:#FFFFFF;
 	width:15%;
 	height:40%;
 	position:absolute;
@@ -233,7 +233,7 @@ html, body{
 }
 
 .intro3 {
-	background-color:#FAEBD7;
+	background-color:#FFFFFF;
 	width:17%;
 	margin-top:12%;
 	margin-left:55%;
@@ -326,13 +326,13 @@ html, body{
 /*  ------------------------------------------------------v footer v------------------------------------------------------  */
 
 #footah {
-	width: 100%;
-	height: 150px;
-	background-color: #EECEC9;
-	float: center;
-	text-align: center;
-	padding-top: 35px;
-	margin-bottom: 0%;
+	width:100%;
+	height:150px;
+	background-color:#ED8E8E;
+	float:center;
+	text-align:center;
+	padding-top:35px;
+	margin-bottom:0%;
 	margin-top:0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
 }
@@ -347,6 +347,7 @@ a:hover {
 
 #footertxt {
 	line-height: 150%
+	
 }
 
 .redtext{
