@@ -326,13 +326,14 @@ html, body{
 #footah {
 	width:100%;
 	height:150px;
-	background-color:#ED8E8E;
+	background-color:#520C17;
 	float:center;
 	text-align:center;
 	padding-top:35px;
 	margin-bottom:0%;
 	margin-top:0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+	color:#f1f1f1;
 }
 
 a {
@@ -345,11 +346,16 @@ a:hover {
 
 #footertxt {
 	line-height: 150%
+	color:#f1f1f1;
 	
 }
 
 .redtext{
 	color:#800000;
+}
+
+.redtext:hover {
+	color:#f1f1f1;
 }
 
 /*  ------------------------------------------------------^ footer ^------------------------------------------------------  */
