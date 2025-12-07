@@ -176,7 +176,7 @@ html, body{
 .fotobox {
 	background-color:#FFFFFF;
 	width:670px;
-	height:63.4%;
+	height:594.6px;
 	border-radius:25px 25px 25px 25px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
 	margin-left:10%;
@@ -199,7 +199,7 @@ html, body{
 }
 
 .introtexte123 {
-	font-size:0.93vw;
+	font-size:18px;
 }
 
 .division {
@@ -238,7 +238,7 @@ html, body{
 .intro2 {
 	background-color:#FFFFFF;
 	width:15%;
-	height:40%;
+	height:;
 	position:absolute;
 	float:left;
 	margin-top:11%;
@@ -268,7 +268,7 @@ html, body{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*  ------------------v skillbox v-------------------  */
+/*  ------------------v skillbox v-----------0.93vw--------  */
 
 .skillboxes {
 	position:;
